@@ -25,12 +25,10 @@
 ```
 bash
 git clone https://github.com/DanVolov/Блокнот.git
-cd Блокнот
 ```
 
 2.&nbsp;&nbsp;Установите зависимости:<br>
 ```
-bash
 pip install -r requirements.txt
 ```
 
@@ -41,7 +39,6 @@ pip install -r requirements.txt
 Через Python:<br>
 Запуск блокнота:<br>
 ```
-bash
 python Notepad.py
 ```
 
