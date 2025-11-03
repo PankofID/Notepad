@@ -1,102 +1,108 @@
 # Python Notepad
 
-Простой блокнот на Python с графическим интерфейсом Tkinter.  
-**Проект свободен для использования любым желающим.**
+Простой блокнот на Python с графическим интерфейсом Tkinter.<br>
+<strong>Проект свободен для использования любым желающим.</strong>
 
 ---
 
 ## Описание
 
-Проект представляет собой текстовый редактор с основными функциями:
-
-- Создание новых вкладок и закрытие текущей или последней вкладки
-- Открытие и сохранение файлов (`Save`, `Save As`, `Save all`)
-- Вырезание, копирование, вставка и удаление текста
-- Поиск, переход к следующему/предыдущему совпадению, замена текста
-- Выделение всего текста и вставка текущей даты/времени
-- Изменение шрифта и размера текста
-- Изменение масштаба текста (Zoom in, Zoom out, Restore default zoom)
-- Горячие клавиши для быстрого доступа ко всем функциям
+Проект представляет собой текстовый редактор с основными функциями:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;- Создание новых вкладок и закрытие текущей или последней вкладки<br>
+&nbsp;&nbsp;&nbsp;&nbsp;- Открытие и сохранение файлов (`Save`, `Save As`, `Save all`)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;- Вырезание, копирование, вставка и удаление текста<br>
+&nbsp;&nbsp;&nbsp;&nbsp;- Поиск, переход к следующему/предыдущему совпадению, замена текста<br>
+&nbsp;&nbsp;&nbsp;&nbsp;- Выделение всего текста и вставка текущей даты/времени<br>
+&nbsp;&nbsp;&nbsp;&nbsp;- Изменение шрифта и размера текста<br>
+&nbsp;&nbsp;&nbsp;&nbsp;- Изменение масштаба текста (Zoom in, Zoom out, Restore default zoom)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;- Горячие клавиши для быстрого доступа ко всем функциям
 
 ---
 
 ## Установка
 
-1. Склонируйте репозиторий:
-'```bash'
-git clone https://github.com/твое-имя/Блокнот.git
+1.&nbsp;&nbsp;Склонируйте репозиторий:<br>
+```
+bash
+git clone https://github.com/DanVolov/Блокнот.git
 cd Блокнот
+```
 
-2. Установите зависимости:
+2.&nbsp;&nbsp;Установите зависимости:<br>
+```
+bash
 pip install -r requirements.txt
+```
 
 ---
 
 ## Использование
 
-Через Python:
-Запуск блокнота:
+Через Python:<br>
+Запуск блокнота:<br>
+```
+bash
 python Notepad.py
+```
 
-Через скомпилированный файл:
-В папке dist есть готовый .exe файл:
-dist/Notepad.exe
-Просто запустите его двойным кликом.
+Через скомпилированный файл:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;В папке dist есть готовый .exe файл:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;dist/Notepad.exe<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Просто запустите его двойным кликом.
 
 ---
 
 ## Структура проекта
 
-Блокнот/
-├── Notepad.py           # Главный файл проекта
-├── requirements.txt     # Зависимости проекта
-├── icon.ico             # Иконка приложения
-├── README.md            # Этот файл
-├── build/               # Папка с файлами сборки PyInstaller
-├── Notebook.spec        # Файл сборки PyInstaller
-└── dist/
-    └── Notepad.exe      # Скомпилированный исполняемый файл
+Блокнот/<br>
+&nbsp;&nbsp;&nbsp;&nbsp;├── Notepad.py &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Главный файл проекта<br>
+&nbsp;&nbsp;&nbsp;&nbsp;├── requirements.txt &nbsp;&nbsp;# Зависимости проекта<br>
+&nbsp;&nbsp;&nbsp;&nbsp;├── icon.ico &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Иконка приложения<br>
+&nbsp;&nbsp;&nbsp;&nbsp;├── README.md &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Этот файл<br>
+&nbsp;&nbsp;&nbsp;&nbsp;├── build/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Папка с файлами сборки PyInstaller<br>
+&nbsp;&nbsp;&nbsp;&nbsp;├── Notebook.spec &nbsp;&nbsp;&nbsp;# Файл сборки PyInstaller<br>
+&nbsp;&nbsp;&nbsp;&nbsp;└── dist/<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── Notepad.exe &nbsp;&nbsp;&nbsp;&nbsp;# Скомпилированный исполняемый файл<br>
 
 ---
 
 ## Горячие клавиши
 
-File
-Ctrl + N — новая вкладка
-Ctrl + O — открыть файл
-Ctrl + S — сохранить
-Ctrl + Shift + S — сохранить как
-Ctrl + Alt + S — сохранить все
-Ctrl + W — закрыть вкладку
+File<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Ctrl + N — новая вкладка<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Ctrl + O — открыть файл<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Ctrl + S — сохранить<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Ctrl + Shift + S — сохранить как<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Ctrl + Alt + S — сохранить все<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Ctrl + W — закрыть вкладку<br>
 
-Edit
-Ctrl + Z — отмена
-Ctrl + X — вырезать
-Ctrl + C — копировать
-Ctrl + V — вставить
-Delete — удалить
-Ctrl + F — найти
-F3 — найти далее
-Shift + F3 — найти ранее
-Ctrl + H — заменить
-Ctrl + G — перейти к строке
-Ctrl + A — выделить всё
-Ctrl + T — вставить текущие дату и время
-Ctrl + F — изменить шрифт
+Edit<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Ctrl + Z — отмена<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Ctrl + X — вырезать<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Ctrl + C — копировать<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Ctrl + V — вставить<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Delete — удалить<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Ctrl + F — найти<br>
+&nbsp;&nbsp;&nbsp;&nbsp;F3 — найти далее<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Shift + F3 — найти ранее<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Ctrl + H — заменить<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Ctrl + G — перейти к строке<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Ctrl + A — выделить всё<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Ctrl + T — вставить текущие дату и время<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Ctrl + F — изменить шрифт<br>
 
-View
-Ctrl + + — увеличить текст
-Ctrl + - — уменьшить текст
-Ctrl + 0 — восстановить масштаб
+View<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Ctrl + + — увеличить текст<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Ctrl + - — уменьшить текст<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Ctrl + 0 — восстановить масштаб<br>
 
 ---
 
 ## Вклад
 
-Если хотите помочь:
-- Форкните репозиторий
-- Создайте ветку для фичи (git checkout -b feature/имя-фичи)
-- Сделайте коммит (git commit -m "Добавил новую функцию")
-- Отправьте изменения (git push origin feature/имя-фичи)
-- Создайте Pull Request
-
+Если хотите помочь:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;- Форкните репозиторий<br>
+&nbsp;&nbsp;&nbsp;&nbsp;- Создайте ветку для фичи (git checkout -b feature/имя-фичи)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;- Сделайте коммит (git commit -m "Добавил новую функцию")<br>
+&nbsp;&nbsp;&nbsp;&nbsp;- Отправьте изменения (git push origin feature/имя-фичи)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;- Создайте Pull Request<br>
