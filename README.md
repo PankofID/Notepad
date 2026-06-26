@@ -56,8 +56,7 @@ python Notepad.py
 &nbsp;&nbsp;&nbsp;&nbsp;├── requirements.txt &nbsp;&nbsp;# Зависимости проекта<br>
 &nbsp;&nbsp;&nbsp;&nbsp;├── icon.ico &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Иконка приложения<br>
 &nbsp;&nbsp;&nbsp;&nbsp;├── README.md &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Этот файл<br>
-&nbsp;&nbsp;&nbsp;&nbsp;├── build/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Папка с файлами сборки PyInstaller<br>
-&nbsp;&nbsp;&nbsp;&nbsp;├── Notebook.spec &nbsp;&nbsp;&nbsp;# Файл сборки PyInstaller<br>
+&nbsp;&nbsp;&nbsp;&nbsp;├── .gitignore &nbsp;&nbsp;&nbsp;# Специальный файл Git, в котором перечисляются файлы и папки, которые Git должен игнорировать<br>
 &nbsp;&nbsp;&nbsp;&nbsp;└── dist/<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── Notepad.exe &nbsp;&nbsp;&nbsp;&nbsp;# Скомпилированный исполняемый файл<br>
 
